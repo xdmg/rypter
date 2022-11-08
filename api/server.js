@@ -4,7 +4,8 @@ import mongoose from 'mongoose';
 const app = express();
 
 app.get('/', (req,res,next)=>{
-    res.send("<p>This is a test</p>");
+    res.send("server is running");
+    next();
 });
 
 app.listen(9000, () => {console.log('sever running')});
