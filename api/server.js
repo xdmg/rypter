@@ -8,4 +8,4 @@ app.get('/', (req,res,next)=>{
     next();
 });
 
-app.listen(9000, () => {console.log('sever running')});
+app.listen(9000, () => {console.log('server running')});
