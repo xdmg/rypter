@@ -1,11 +1,15 @@
 import express from 'express';
 import mongoose from 'mongoose';
 
+const port = 9000;
+const url = "mongodb+srv://root:root@cluster0.ew1hmfn.mongodb.net/?retryWrites=true&w=majority";
+mongoose.connect(url);
+
 const app = express();
 
 app.get('/', (req,res,next)=>{
-    res.send("server is running");
+    res.send("");
     next();
 });
 
-app.listen(9000, () => {console.log('server running')});
+app.listen(port, () => {console.log(port)});
