@@ -35,7 +35,7 @@ const Post = ({post}) => {
                     </div>
                     {(containsImage && <div className="post-content-data-image mt-5">
                         <img
-                            src="https://img.ifunny.co/images/5a971f42fb19b4a9b4d10490f25b5df73891a363a3689cc48cf800312095f739_3.jpg"
+                            src="https://images.unsplash.com/photo-1582491795316-0782a861c529?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
                             alt=""/>
                     </div>)}
                 </div>
