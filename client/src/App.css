@@ -16,3 +16,24 @@ body{
     /*background: rgb(2,0,36);*/
     /*background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
 }
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #1C1D1F #151618;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #151618;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #1C1D1F;
+    border-radius: 10px;
+    border: 3px none #151618;
+}

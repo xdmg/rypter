@@ -6,6 +6,26 @@
     /*justify-content: center;*/
     align-items: center;
     padding-top: 50px;
-    padding-left: 50px;
+    padding-left: 90px;
     /*background-color: #000000;*/
+}
+
+.sidebar {
+    display: flex;
+    flex: 0.35
+}
+
+.footer {
+    height: 200px;
+}
+
+@media only screen and (max-width: 1200px){
+    .feed{
+        flex: 1;
+        padding-left: 0;
+    }
+
+    .sidebar{
+        display: none;
+    }
 }
