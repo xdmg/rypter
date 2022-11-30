@@ -2,9 +2,10 @@ import './Navbar.css';
 import './App.css';
 import { MagnifyingGlassCircleIcon,MegaphoneIcon,SparklesIcon } from "@heroicons/react/24/outline";
 import { UserCircleIcon } from "@heroicons/react/20/solid";
+
 import Logo from './rypter-logo.png';
 
-const Navbar = () => {
+const Navbar = ({login}) => {
     const searchPlaceholder = "Search for different people, posts, or boards..."
    return (
        <header className="navbar flex justify-center items-center">
@@ -22,10 +23,10 @@ const Navbar = () => {
                </form>
            </div>
            <div className="flex justify-end navbar-account mr-10 flex-1">
-               <button className="navbar-account-container flex justify-center items-center text-gray flex">
+               <button onClick={() => {login(true);}} className="navbar-account-container flex justify-center items-center text-gray flex">
                {/*<div className="navbar-account-container flex justify-center items-center text-gray">*/}
                    <UserCircleIcon className="h-6 pr-1 text-gray"/>
-                   <p className="text-gray px-1">Manage Account</p>
+                   <p className="text-gray px-1">Login/Register</p>
                {/*</div></button>*/}
                </button>
            </div>

@@ -1,0 +1,187 @@
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: flex;
+    backdrop-filter: blur(10px);
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #0c0c0c;
+    border: 1px solid #292E3A;
+    border-radius: 20px;
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    /*justify-content: center;*/
+}
+
+.container-input {
+    margin-bottom: 10px;
+    height: 55px;
+    width: 400px;
+    background-color: #121212;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    font-size: 1em;
+    padding: 1rem;
+    border-radius: 5px;
+    position: relative;
+    border: 1px solid #292E3A;
+    z-index: 2;
+    transition: 0.3s ease-out;
+}
+
+.sendIcon {
+    color: #b2b2b2;
+}
+
+.container-input:focus-within {
+    background-color: #161617;
+}
+
+.container-input-bar {
+    width: 80%;
+}
+
+.container-image {
+    width: 250px;
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
+
+.container-button {
+    width: 400px;
+    height: 55px;
+    box-shadow: inset 0 1px 0 0 hsla(0, 0%, 100%, .1);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #b2b2b2;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.button-contents {
+    width: 100%;
+    transform: translateX(0);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+}
+
+.button-contents > p {
+    transform: translateX(0);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.button-contents > svg {
+    color: #7c57a5;
+    transform: translateX(0);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.container-button:hover > .button-contents > p {
+    transform: translateX(18px);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.container-button:hover > .button-contents > svg {
+    color: #bb6bff;
+    transform: translateX(140px);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.sign-google{
+    margin-top: 30px;
+    border-top: 1px solid #292E3A;
+}
+
+.google-container-button {
+    margin-top: 20px;
+    width: 400px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid #364e35;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #b2b2b2;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.google-button-contents {
+    width: 100%;
+    transform: translateX(0);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+}
+
+.google-button-contents > p {
+    transform: translateX(0);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.google-button-contents > svg {
+    color: #59a557;
+    transform: translateX(0);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.google-container-button:hover > .google-button-contents > p {
+    transform: translateX(10px);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.google-container-button:hover > .google-button-contents > svg {
+    /*color: #bb6bff;*/
+    transform: translateX(80px);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.register {
+    margin-top: 30px;
+    font-family: "DM Sans",sans-serif;
+    color: #b2b2b2;
+}
+
+.register-button > span{
+    border-radius: 5px;
+    font-family: 'Karla', sans-serif;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 6px 10px 6px 10px;
+}

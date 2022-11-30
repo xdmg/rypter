@@ -47,7 +47,7 @@ const Post = ({post}) => {
                             <button type="submit"><PaperAirplaneIcon className="sendIcon h-7 w-7 mr-3"/></button>
                             <input type=""
                                    className="post-comments-input-bar bg-transparent border-none outline-none text-gray"
-                                   placeholder=""/>
+                                   placeholder="Write a comment..."/>
                         </form>
                     </div>
                 </div>
